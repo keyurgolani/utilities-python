@@ -45,5 +45,5 @@ class Battery(object):
             else RED
         )
 
-        out = "[ " + color_out + out + RESET + " ]" + "\n"
+        out = "< " + color_out + out + RESET + " >" + "\n"
         sys.stdout.write(out)
